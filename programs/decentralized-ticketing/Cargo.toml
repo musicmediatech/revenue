@@ -1,0 +1,27 @@
+[package]
+name = "decentralized-ticketing"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "decentralized_ticketing"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+
+[dependencies]
+anchor-lang = "0.31.1"
+solana-program = "1.14.17"
+
+# Removed the `mpl-token-metadata` dependency to test if it resolves the issues
+# [dependencies.mpl-token-metadata]
+# path = "../../mpl-token-metadata/programs/token-metadata"
+

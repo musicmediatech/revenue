@@ -1,0 +1,24 @@
+{
+  "name": "Blockchain Unplugged - Seat A38",
+  "symbol": "BUPT",
+  "description": "A ticket for the Blockchain Unplugged event at Genesis Theater.",
+  "image": "https://images.pexels.com/photos/1749822/pexels-photo-1749822.jpegA38.png",
+  "attributes": [
+    {
+      "trait_type": "Seat",
+      "value": "A38"
+    },
+    {
+      "trait_type": "Category",
+      "value": "VIP"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://images.pexels.com/photos/1749822/pexels-photo-1749822.jpegA38.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
